@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="defaults.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        
+        <h1 class="logo"></h1>    
+        <input type="checkbox" id='nav-toggle' class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/src/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/src/blog-page.html">blog</a></li>
+                <li><a href="http://127.0.0.1:5500/src/about-page.html">about</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+
+
+    <div class="mesasge">
+            <form
+        action="https://formspree.io/burrows.dwayne@icloud.com" 
+        method="POST" class="form-area">
+            <div class="message-area">
+                <label for="mesasge">Get in touch!</label>
+                <textarea name="message-box"></textarea>
+            </div>
+            <div class="add-details">
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname">
+
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname">
+
+                <label for="email">Enter you Email</label>
+                <input type="email" name="Email" id="email">
+                <!-- <textarea name="message"></textarea> -->
+
+                <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+    <footer>
+        <ul class="footer-nav">
+            <ul class="footer-nav"><a target="_blank" href="https://www.linkedin.com/in/dwayne-b-321863197/"><i class="fab fa-linkedin-in"></i></a></ul>
+            <ul class="footer-nav"><a target="_blank" href="https://twitter.com/dwaynecantcode"><i class="fab fa-twitter"></i></a></ul>
+            <ul class="footer-nav"><a target="_blank" href=""><i class="fa fa-fw fa-envelope"></i></a></ul><!--contacts -->
+            <!--&copy maybe-->     
+        </ul>
+    </footer>
+</body>
+</html>
